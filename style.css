@@ -164,17 +164,29 @@ transition: all 0.7s ease-in-out;
   opacity: .8;
 }
 
-/* .videoSubtitle p{
-  margin-left: 230px;
-  font-size: 30px;
-  margin-bottom: 50px;
-} */
-
 .video {
   display: fixed;
   margin-top: 150px;
   margin-left: 250px;
   margin-bottom: 80px;
+}
+
+.mySite {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  padding-left: 420px;
+}
+
+.mySite a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  opacity: .8;
+  font-weight: 300;
+}
+
+.mySite a:hover {
+  opacity: 1;
 }
 
 .footer {
